@@ -239,6 +239,7 @@ public class Main extends Application {
 
         Button loc3Button = new Button("3");
         loc3Button.setOnAction(t -> flyToPosition(3));
+        loc3Button.setStyle("-fx-background-color: green");
 
         Button compareButton = new Button("Compare");
         compareButton.setId("compare-button");
